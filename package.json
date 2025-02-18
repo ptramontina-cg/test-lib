@@ -8,7 +8,8 @@
   "scripts": {
     "build": "tsup",
     "prepare": "echo \"Howdy Mr.\"",
-    "test": "echo \"Howdy Mr.\""
+    "test": "echo \"Howdy Mr.\"",
+    "preinstall": "echo \"Im a preinstall\""
   },
   "author": "Pedro",
   "license": "ISC",
