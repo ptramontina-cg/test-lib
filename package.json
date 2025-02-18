@@ -7,7 +7,7 @@
   "types": "./dist/index.d.ts",
   "scripts": {
     "build": "tsup",
-    "prepack": "npm run build",
+    "postinstall": "npm run build",
     "test": "echo \"Howdy Mr.\"",
     "preinstall": "echo \"Im a preinstall\""
   },
